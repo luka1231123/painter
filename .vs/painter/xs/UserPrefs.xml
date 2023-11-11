@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{1CBA2E2C-CDD7-4872-B6A8-716B30152A90}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExtraMethods.cs">
+    <Files>
+      <File FileName="Window.cs" Line="1" Column="1" />
+      <File FileName="vec3.cs" Line="1" Column="1" />
+      <File FileName="ExtraMethods.cs" Line="13" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="painter" expanded="True">
+            <Node name="painter" expanded="True">
+              <Node name="ExtraMethods.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.painter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
