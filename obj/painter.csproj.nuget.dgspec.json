@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/luka/Programming/c#/painter/painter.csproj": {}
+    "C:\\Users\\lukar\\Documents\\painter\\painter.csproj": {}
   },
   "projects": {
-    "/home/luka/Programming/c#/painter/painter.csproj": {
+    "C:\\Users\\lukar\\Documents\\painter\\painter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/luka/Programming/c#/painter/painter.csproj",
+        "projectUniqueName": "C:\\Users\\lukar\\Documents\\painter\\painter.csproj",
         "projectName": "painter",
-        "projectPath": "/home/luka/Programming/c#/painter/painter.csproj",
-        "packagesPath": "/home/luka/.nuget/packages/",
-        "outputPath": "/home/luka/Programming/c#/painter/obj/",
+        "projectPath": "C:\\Users\\lukar\\Documents\\painter\\painter.csproj",
+        "packagesPath": "C:\\Users\\lukar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukar\\Documents\\painter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/luka/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\lukar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "wPFvHfFyoppVWmPIw4VTN2PJ6rGx8w5cLsCTdf6hqBQPMvCoSjvvc8KqsVIeZNAhm+DqVNcWrNQWkGZAnhd3jg==",
+  "dgSpecHash": "55EgziqJ4ozIoQ+ixZI2GEvkI1pU41ppfbW2SW/gqDfYY/MqOZvdR/iXETGI9RVOgSf/jgvppwvNU+udrtH+SA==",
   "success": true,
-  "projectFilePath": "/home/luka/Programming/c#/painter/painter.csproj",
+  "projectFilePath": "C:\\Users\\lukar\\Documents\\painter\\painter.csproj",
   "expectedPackageFiles": [
-    "/home/luka/.nuget/packages/csfml/2.5.2/csfml.2.5.2.nupkg.sha512",
-    "/home/luka/.nuget/packages/sfml.audio/2.5.1/sfml.audio.2.5.1.nupkg.sha512",
-    "/home/luka/.nuget/packages/sfml.graphics/2.5.1/sfml.graphics.2.5.1.nupkg.sha512",
-    "/home/luka/.nuget/packages/sfml.net/2.5.1/sfml.net.2.5.1.nupkg.sha512",
-    "/home/luka/.nuget/packages/sfml.system/2.5.1/sfml.system.2.5.1.nupkg.sha512",
-    "/home/luka/.nuget/packages/sfml.window/2.5.1/sfml.window.2.5.1.nupkg.sha512"
+    "C:\\Users\\lukar\\.nuget\\packages\\csfml\\2.5.2\\csfml.2.5.2.nupkg.sha512",
+    "C:\\Users\\lukar\\.nuget\\packages\\sfml.audio\\2.5.1\\sfml.audio.2.5.1.nupkg.sha512",
+    "C:\\Users\\lukar\\.nuget\\packages\\sfml.graphics\\2.5.1\\sfml.graphics.2.5.1.nupkg.sha512",
+    "C:\\Users\\lukar\\.nuget\\packages\\sfml.net\\2.5.1\\sfml.net.2.5.1.nupkg.sha512",
+    "C:\\Users\\lukar\\.nuget\\packages\\sfml.system\\2.5.1\\sfml.system.2.5.1.nupkg.sha512",
+    "C:\\Users\\lukar\\.nuget\\packages\\sfml.window\\2.5.1\\sfml.window.2.5.1.nupkg.sha512"
   ],
   "logs": []
 }

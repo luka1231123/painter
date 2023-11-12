@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using static Painter.ExtraMethods;
+using System.IO;
 
 namespace Painter;
 public class Program
@@ -65,8 +66,8 @@ public class Program
             if(exm.ikp(Keyboard.Key.X)){
                 init();
             }
-            if(exm.ikp(Keyboard.Key.C)){
-                //to a text file
+            if (exm.ikp(Keyboard.Key.C)) {
+                SaveToFile("C:\\Users\\lukar\\Videos\\", "swastika");
             }
             if(exm.imp()){
                 mx=exm.mouseLoc.x;
@@ -102,14 +103,29 @@ public class Program
 
         
     }
-    void SaveToFile(string path, string name, vec3[,] vec3Ar)
+    static void SaveToFile(string path, string name)
     {
-        // will add later
+        if (File.Exists(name))
+        {
+            File.Delete(name);
+        }
+
+        StreamWriter sw = new StreamWriter($"{path}{name}");
+
+        for (int i = 0;i<32;i++)
+        {
+            for(int j=0;j<32; j++)
+            {
+                sw.WriteLine($"{vec3array[i,j].x} {vec3array[i,j].y} {vec3array[i,j].z}");
+                Console.WriteLine(vec3array[i,j].x);
+            }
+            sw.WriteLine("***");
+        }
         
     }
     static void paintTile(int tileX, int tileY, vec3 colorc)
     {
-        
+        vec3array[tileX,tileY]= colorc;
         for(int i=0; i<18; i++){
             for(int j=0;j<18;j++){
                 wnd.SetPixelArray((i+(tileX*18)+448), (j+(tileY*18)), colorc);
