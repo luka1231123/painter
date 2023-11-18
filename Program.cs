@@ -70,7 +70,7 @@ public class Program
                 init();
             }
             if (exm.ikp(Keyboard.Key.C)) {
-                SaveToFile(pvath,"wallah");
+                SaveToFile(pvath,"wallah");//this a change
             }
             if(exm.imp()){
                 mx=exm.mouseLoc.x;
